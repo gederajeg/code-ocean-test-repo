@@ -1,0 +1,27 @@
+---
+title: "R Notebook for testing [Code Ocean](https://codeocean.com/)"
+author: "[Gede Primahadi W. Rajeg](https://github.com/gederajeg)"
+output: html_notebook
+---
+
+This is an R Markdown Notebook for testing the connection between the RStudio project structure, GitHub, and the "Reproducible Run" feature of the codes/notebook in Code Ocean.
+
+```{r setup}
+library(readr)
+library(stringr)
+```
+
+```{r read-sentences}
+sentences <- read_lines("../data/sample-sentences-from-stringr.txt")
+```
+
+
+```{r detect-some-pattern}
+ed_sentences <- str_subset(string = sentences, pattern = "ed\\b")
+head(ed_sentences)
+```
+
+```{r save-results}
+write_lines(x = head(ed_sentences), file = "../results/ed_sentences.txt")
+```
+
