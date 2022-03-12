@@ -18,8 +18,13 @@ sentences <- read_lines("../data/sample-sentences-from-stringr.txt")
 
 ```{r detect-some-pattern}
 ed_sentences <- str_subset(string = sentences, pattern = "ed\\b")
+```
+
+
+```{r peek-the-top-six-results} 
 head(ed_sentences)
 ```
+
 
 ```{r save-results}
 write_lines(x = head(ed_sentences), file = "../results/ed_sentences.txt")
