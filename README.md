@@ -6,8 +6,8 @@ This is a test capsule to see how the integration of a GitHub repository and its
 
 The two main goals are:
 
-i. to organise the directory of an RStudio project to be hosted on GitHub that matches the required directory structure of Code Ocean for enabling its "Reproducible Run" feature;
+1. to organise the directory of an RStudio project to be hosted on GitHub that matches the required directory structure of Code Ocean for enabling its "Reproducible Run" feature;
 
-i. to test how to fetch commits and changes from the source GitHub repository (e.g., https://github.com/gederajeg/code-ocean-test-repo) to the corresponding Code Ocean capsule.
+1. to test how to fetch commits and changes from the source GitHub repository (e.g., https://github.com/gederajeg/code-ocean-test-repo) to the corresponding Code Ocean capsule.
 
 
